@@ -1,0 +1,23 @@
+{
+  "name": "testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha test/users.test.js",
+    "chaitest": "mocha test/users.chaitest.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "mocha": "^10.7.0",
+    "chai": "^5.1.1",
+    "chai-http": "5.0.0",
+    "supertest": "^7.0.0"
+  }
+}
