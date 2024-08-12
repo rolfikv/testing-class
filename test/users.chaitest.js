@@ -46,6 +46,7 @@ describe('Users API', () => {
           assert.isObject(res.body, 'Response body should be an object');
           assert.propertyVal(res.body, 'id', 1, 'User ID should be 1');
           assert.propertyVal(res.body, 'name', 'Adrian', 'User name should be Adrian');
+          expect(res.body.id).to.equal(1);
           done();
         });
     });
